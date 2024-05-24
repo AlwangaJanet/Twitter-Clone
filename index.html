@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twitter Clone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img class="cover-img" src="person.jpg" alt="cover-img">
+    </header>
+    <main>
+        <section class="profile">
+            <div class="profile-header">
+                <img class="profile-picture" src="person.jpg" alt="Profile Picture">
+                <button class="edit-profile-button">Edit Profile</button>
+            </div>
+            <h1 class="profile-name"></h1>
+            <p class="profile-bio"></p>
+            <ul class="profile-stats">
+                <li><span class="profile-stat-value">10</span> Tweets</li>
+                <li><span class="profile-stat-value">20</span> Following</li>
+                <li><span class="profile-stat-value">10</span> Followers</li>
+            </ul>
+            <button class="profile-button">Follow</button>
+        </section>
+        <section class="tweets">
+            <h2>Tweets</h2>
+            <ul id="tweet-list"></ul>
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
